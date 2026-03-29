@@ -1,0 +1,54 @@
+name: shivay_tech
+description: Shivay Tech - Next Gen IT Solutions Website
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: 3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Animations
+  animate_do:
+  lottie:
+  
+  # Navigation & UI
+  go_router:
+  google_fonts:
+  
+  # Email / Form
+  url_launcher:
+  flutter_email_sender:
+  
+  # UI Effects
+  glassmorphism:
+  shimmer:
+  
+  # Icons
+  font_awesome_flutter:
+  
+  # Particles / Animation
+  particles_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+#  assets:
+#    - assets/images/
+#    - assets/lottie/
+  
+#  fonts:
+#    - family: Orbitron
+#      fonts:
+#        - asset: assets/fonts/Orbitron-Regular.ttf
+#        - asset: assets/fonts/Orbitron-Bold.ttf
+#          weight: 700
