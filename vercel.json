@@ -6,6 +6,17 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "build/web/index.html" }
+    {
+      "src": "/ads.txt",
+      "dest": "/ads.txt"
+    },
+    {
+      "src": "/privacy.html",
+      "dest": "/privacy.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
