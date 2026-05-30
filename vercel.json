@@ -1,7 +1,5 @@
 {
-  "buildCommand": "flutter build web --release --base-href /",
   "outputDirectory": "build/web",
-  "framework": null,
   "rewrites": [
     {
       "source": "/(.*)",
