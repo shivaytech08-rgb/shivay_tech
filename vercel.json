@@ -1,22 +1,11 @@
 {
-  "builds": [
+  "buildCommand": "flutter build web --release --base-href /",
+  "outputDirectory": "build/web",
+  "framework": null,
+  "rewrites": [
     {
-      "src": "build/web/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/ads.txt",
-      "dest": "/ads.txt"
-    },
-    {
-      "src": "/privacy.html",
-      "dest": "/privacy.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
